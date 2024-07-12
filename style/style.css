@@ -72,6 +72,12 @@ margin-bottom: 100px;
     color: aliceblue;
     margin-top: 25px;
     cursor: pointer;
+
+}
+
+.link-1{
+    text-decoration: none;
+    color: rgb(250, 248, 248);
 }
 
 /* same styles */
@@ -317,4 +323,14 @@ height: 47px;
     margin-left: 90px;
     margin-bottom: 50px;
    
+}
+
+.h4{
+    font-size: 26px;
+}
+
+.foot-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
