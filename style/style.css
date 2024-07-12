@@ -15,7 +15,7 @@ nav{
 
 nav div{
     display: flex;
-    gap: 800px ;
+    gap: 900px ;
     align-items: center;
     
 }
@@ -74,9 +74,10 @@ background-position: center;
 }
 
 /* same styles */
-.font-same{
+.h1-same{
     font-size: 32px;
     font-weight: 800;
+    color: rgb(13, 19, 33);
 }
 
 .p-same{
@@ -87,3 +88,48 @@ background-position: center;
    
 }
 
+ /* web development style */
+  .main{
+    
+    align-items: center;
+    background-color: rgb(253, 253, 250);
+    margin-right: 100px;
+    margin-bottom: 100px;
+  }
+
+  .heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 68px;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+/* 1st box styles */
+  .box-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 477px;
+    max-height: 220px;
+   
+  }
+  .box-des{
+    text-align: center;
+  }
+
+  .box-1{
+    display: flex;
+    flex-direction: row;
+    gap: 650px;
+    margin-left: 68px;
+    margin-top: 50px;
+    background-color: rgb(247, 245, 243);
+    padding-bottom: 80px;
+    padding-left: 30px;
+  }
+
+  .img{
+    width: 323px;
+    height: 310px;
+    margin-top: 30px;
+  }
