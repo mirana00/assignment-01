@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100..900&display=swap');
+ 
+/* font family: azeret mono */
+
+/* nav styles */
+nav{
+    display: flex;
+    
+}
+.nav-title{
+    font-size: 30px;
+    font-weight: 800px;
+    margin-left: 150px;
+}
+
+nav div{
+    display: flex;
+    gap: 800px ;
+    align-items: center;
+    
+}
+
+.btn{
+    background-color: azure;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 12px 16px 12px 16px;
+    opacity: 0.8;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* banner style */
+
+.banner{
+    background-image: url("../assets/Hero-bg.png");
+width: 1440px;
+height: 652px;
+background-position: center;
+}
+
+.banner-content{
+    max-width: 998px;
+    height: 582px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    margin-left: 200px;
+}
+.banner-des{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.h1{
+    font-size: 46px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.btn-1{
+    border-radius: 3px;
+    background: rgb(13, 19, 33);  
+    padding: 12px 16px 12px 16px;  
+    color: aliceblue;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+/* same styles */
+.font-same{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.p-same{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+   
+}
+
