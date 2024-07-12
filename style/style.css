@@ -39,6 +39,7 @@ nav div{
 width: 1440px;
 height: 652px;
 background-position: center;
+margin-bottom: 100px;
 }
 
 .banner-content{
@@ -95,6 +96,8 @@ background-position: center;
     background-color: rgb(253, 253, 250);
     margin-right: 100px;
     margin-bottom: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
   }
 
   .heading{
@@ -105,22 +108,25 @@ background-position: center;
     padding-left: 30px;
     padding-right: 10px;
   }
-/* 1st box styles */
+/* box styles */
   .box-content{
     display: flex;
     flex-direction: column;
-    max-width: 477px;
-    max-height: 220px;
+    margin-top: 40px;
+   height: 220px;
+    text-align: center;
    
   }
   .box-des{
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
 
   .box-1{
     display: flex;
     flex-direction: row;
-    gap: 650px;
+    gap: 400px;
     margin-left: 68px;
     margin-top: 50px;
     background-color: rgb(247, 245, 243);
@@ -133,3 +139,16 @@ background-position: center;
     height: 310px;
     margin-top: 30px;
   }
+ /* inspirations style */
+
+ .vid{
+  width: 1000px;
+  height: 500px;
+  box-sizing: border-box;
+ border: 2px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+margin-left: 168px;
+margin-top: 80px;
+overflow: hidden;
+
+ }
